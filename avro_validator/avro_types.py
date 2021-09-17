@@ -475,7 +475,7 @@ class RecordType(ComplexType):
       python_type: The python type associated with the record avro type.
     """
     python_type = dict
-    optional_attributes: Set[str] = {'type', 'namespace', 'aliases', 'doc'}
+    optional_attributes: Set[str] = {'type', 'namespace', 'aliases', 'doc', 'version'}
     required_attributes: Set[str] = {'fields', 'name'}
 
     def __init__(self, fields: Mapping[str, RecordTypeField] = None) -> None:

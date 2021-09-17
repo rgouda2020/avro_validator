@@ -34,7 +34,7 @@ def main() -> None:
     parsed_data = json.load(open(args.data_file, 'r'))
 
     try:
-        parsed_schema.validate(parsed_data)
+        parsed_schema.validate(parsed_data["payload"])
         print('OK')
     except ValueError as error:
         print(error)
