@@ -17,6 +17,7 @@ This is the fork of leocalm/avro_validator
 
 1. Updated float and double array type to accept both integer `123` and decimal `123.45` numbers
 2. Changed the code for record type to accept `logicalType` as parameter. Additional code needs to added to check type matching the logical type.
+3. Updated the record type to accept `version` as paramter. (Note: Version field should be removed as per latest specification. We can use namespace instead of version.)
 
 ### Example1
 
