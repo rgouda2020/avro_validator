@@ -82,7 +82,7 @@ if we take the diff of the above 2 record list
 
 `'recordedAt', 'licenseActivated', 'systemHealth', 'userAgentStats', 'versions', 'deviceInfo', 'recordType', 'recordVersion'`
 
-The fields are missing in the schema `fdm-1.2.avsc` that needs to be added:
+The fields are missing in the schema `fdm-1.2.avsc` that needs to be added for device with id `24f37f62-a624-4fbc-aadc-c126a27a6c16` of org `137764f9-02ba-4c8c-8445-c9d272493804`
 
 1. vpnProfileStats
 2. snort3RuntimeStatistics
