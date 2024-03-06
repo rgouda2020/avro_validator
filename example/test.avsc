@@ -1,0 +1,24 @@
+{
+    "name": "my_schema",
+    "type": "record",
+    "fields": [{
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "age",
+            "type": "int"
+        },
+        {
+            "name": "data",
+            "type": {
+                "type": "record",
+                "name": "data",
+                "fields": [{
+                    "name": "count",
+                    "type": "int"
+                }]
+            }
+        }
+    ]
+}
